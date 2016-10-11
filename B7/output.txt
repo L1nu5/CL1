@@ -1,0 +1,25 @@
+swati@Shree:~/cl1_code/codes/b1$ cd ..
+swati@Shree:~/cl1_code/codes$ ls
+ass1  ass2  ass3  ass4  ass5  ass6  b1  b10  b12  b4  b7  b9
+swati@Shree:~/cl1_code/codes$ cd b7
+swati@Shree:~/cl1_code/codes/b7$ g++ b7.cpp
+swati@Shree:~/cl1_code/codes/b7$ ./a.out
+
+Grammar without left recursion
+		 E->TE' 
+		 E'->+TE'|e 
+		 T->FT' 
+		 T'->*FT'|e 
+		 F->(E)|i
+ Enter the input expression:i+i
+Expressions	 Sequence of production rules
+E=TE'                      E->TE'
+E=FT'E'                    T->FT'
+E=iT'E'                    F->i
+E=ieE'                     T'->e
+E=i+TE'                    E'->+TE'
+E=i+FT'E'                  T->FT'
+E=i+iT'E'                  F->i
+E=i+ieE'                   T'->e
+E=i+ie                     E'->e
+E=i+i                      swati@Shree:~/cl1_code/codes/b7$ 

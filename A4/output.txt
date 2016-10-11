@@ -1,0 +1,23 @@
+akash@akash-Lenovo-IdeaPad-S510p:~$ lex a4.l
+akash@akash-Lenovo-IdeaPad-S510p:~$ yacc -d a4.y
+akash@akash-Lenovo-IdeaPad-S510p:~$ gcc y.tab.c lex.yy.c 
+akash@akash-Lenovo-IdeaPad-S510p:~$ ./a.out
+Valid Statement
+Valid Statement
+Valid Statement
+Valid Statement
+Valid Statement
+if statement is a Valid Statement
+Valid Statement
+Valid Statement
+if statement is a Valid Statement
+Valid Statement
+Valid Statement
+if statement is a Valid Statement
+Valid Statement
+for statement is a Valid Statement
+Valid Statement
+while statement is a Valid Statement
+variable declaration statment is a Valid Statement
+variable declaration statment is a Valid Statement
+PROGRAM IS VALID

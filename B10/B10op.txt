@@ -1,0 +1,16 @@
+Output:
+student@localhost:~/practice cl1$ javac B10code.java
+student@localhost:~/practice cl1$ java B10code
+Program to calculate utilization and throughput
+Enter the number of requests to be sent
+3
+Number of requests to be sent =3
+Enter a time period in seconds
+2
+Time period =2
+Arrival rate is =1.0
+Enter a time required to service a request in milli seconds
+1
+Service time =0.001
+Channel Utilization is =0.99999994
+Throughput is =9.999999E-7

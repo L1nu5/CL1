@@ -1,0 +1,53 @@
+file input.txt
+main()
+{
+int a=10,b,c;
+float e=10.90,f,i;
+a=10;
+b=a;
+c=a+10;
+c=a+b*a;
+c=c+a-b+a;
+}
+
+
+
+akash@akash-Lenovo-IdeaPad-S510p:~$ lex intCode.l 
+akash@akash-Lenovo-IdeaPad-S510p:~$ yacc -d intCode.y
+akash@akash-Lenovo-IdeaPad-S510p:~$ gcc y.tab.c lex.yy.c 
+akash@akash-Lenovo-IdeaPad-S510p:~$ ./a.out
+
+
+ The Symbol Table  
+
+ Name   Type    Value
+ a       int          10.000000
+ b       int          0.000000
+ c       int          0.000000
+ e       float          10.900000
+ f       float          0.000000
+ i       float          0.000000
+
+
+
+ The INTERMEDIATE CODE Is : 
+
+
+
+ The Quadruple Table 
+
+
+     Result  Operator  Operand1  Operand2  
+ 0     a          =          10          
+ 1     b          =          a          
+ 2     t0          +          10.000000          a
+ 3     c          =          t0          
+ 4     t1          *          a          b
+ 5     t2          +          t1          a
+ 6     c          =          t2          
+ 7     t3          +          a          c
+ 8     t4          -          b          t3
+ 9     t5          +          a          t4
+ 10     c          =          t5          
+
+

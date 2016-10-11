@@ -1,0 +1,43 @@
+main()
+{
+	a+b;
+	a-b*a;
+	a*b;
+	c=a/b;
+
+	if(a==b)
+	{
+		a+b;
+	}
+	
+	if(a==b)
+	{
+		a+b;
+		a+b;
+	}
+	else
+	{
+		a-b;
+	}
+	
+	if(a>=b)
+		a+b;
+	else
+		a-b;
+	
+	for(i=5;i<=10;i++)
+	{
+		a=a*i;
+		a=a*i;
+	}
+	
+	while(i<=5)
+	{
+		a+b;
+		a=a*i;
+		a+b;
+	}
+	
+	int a=5,b=4;
+	float c;
+}

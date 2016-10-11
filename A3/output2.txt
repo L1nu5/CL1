@@ -1,0 +1,110 @@
+[pict@localhost A3]$ ./a.out 
+
+_________________________________________________________
+LINE NO	LEXEME		TOKEN		ATTRIBUTE
+_________________________________________________________
+1	#		:Preprocessor
+1	include		:Including header file
+1	<		:Left Angular Brackets or less than
+1	iostream.h		:Header file
+1	>		:Right Angular Brackets or greater than
+3	int		:Datatype
+3	main		:Keyword
+3	(		:Left bracket
+3	)		:Right bracket
+4	{		:Opening brace
+5	int		:Datatype
+5	a		:Identifier		0
+5	=		:Operator
+5	5		:Integer constant
+5	;		:End of statement
+6	float		:Datatype
+6	b		:Identifier		1
+6	=		:Operator
+6	6.2		:Real constant
+6	,		:Comma
+6	c		:Identifier		2
+6	=		:Operator
+6	1.5		:Real constant
+6	;		:End of statement
+7	cout		:Built in function
+7	<<		:Printing or Left Shift
+7	(		:Left bracket
+7	b		:Identifier		1
+7	+		:Operator
+7	c		:Identifier		2
+7	)		:Right bracket
+7	;		:End of statement
+8	cin		:Built in function
+8	>>		:Accepting input or Right Shift
+8	a		:Identifier		0
+8	;		:End of statement
+9	cout		:Built in function
+9	<<		:Printing or Left Shift
+9	a		:Identifier		0
+9	;		:End of statement
+11	for		:Loops
+11	(		:Left bracket
+11	int		:Datatype
+11	i		:Identifier		3
+11	=		:Operator
+11	1		:Integer constant
+11	;		:End of statement
+11	i		:Identifier		3
+11	<		:Left Angular Brackets or less than
+11	5		:Integer constant
+11	;		:End of statement
+11	i		:Identifier		3
+11	++		:Increment
+11	)		:Right bracket
+12	{		:Opening brace
+13	cout		:Built in function
+13	<<		:Printing or Left Shift
+13	i		:Identifier		3
+13	;		:End of statement
+14	}		:Closing brace
+15	int		:Datatype
+15	j		:Identifier		4
+15	=		:Operator
+15	0		:Integer constant
+15	;		:End of statement
+16	while		:Loops
+16	(		:Left bracket
+16	j		:Identifier		4
+16	<		:Left Angular Brackets or less than
+16	=		:Operator
+16	5		:Integer constant
+16	)		:Right bracket
+17	{		:Opening brace
+18	cout		:Built in function
+18	<<		:Printing or Left Shift
+18	j		:Identifier		4
+18	;		:End of statement
+19	j		:Identifier		4
+19	++		:Increment
+19	;		:End of statement
+20	}		:Closing brace
+21	return		:Keyword
+21	0		:Integer constant
+21	;		:End of statement
+ Error!
+ Error!
+ Error!
+ Error!
+ Error!
+ Error!
+23	}		:Closing brace
+_________________________________________________________
+SYMBOL TABLE
+_______________________________________
+NAME		VALUE
+_______________________________________
+a		0
+b		0
+c		0
+i		0
+j		0
+_______________________________________
+Parsing done!!
+[pict@localhost A3]$ 
+

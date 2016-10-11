@@ -1,0 +1,6 @@
+akash@akash-Lenovo-IdeaPad-S510p:~$ scalac dividenconquer.scala 
+akash@akash-Lenovo-IdeaPad-S510p:~$ scala BinarySearchApp 1,2,4,5,6,8,9,25,31
+Some(3)
+Some(6)
+None
+akash@akash-Lenovo-IdeaPad-S510p:~$ 
